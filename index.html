@@ -13,21 +13,25 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://" />
     <meta property="og:image" content="https://nomified.com" />
-    <title>Nomify - Find Your Domain</title>
+    <title>Moshify - Find Your Domain</title>
+    <link rel="icon" href="images/favicon-sm.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon-md.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon-lg.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/Normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="Images/logo.png" alt="" /></a>
+        <a aria-label="Moshify" class="nav__brand" href="/"
+          ><img src="Images/logo.png" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler collapsible--expanded">
           <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -74,6 +78,7 @@
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter Domain Name Here..."
